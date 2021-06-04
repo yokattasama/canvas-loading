@@ -21,7 +21,11 @@ const routes = [
   {
     path: '/load1',
     component: () => import('@/views/loading/Load1.vue')
-  }
+  },
+  {
+    path: '/load2',
+    component: () => import('@/views/loading/Load2.vue')
+  },
 ];
 
 const router = new VueRouter({
