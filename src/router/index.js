@@ -26,6 +26,10 @@ const routes = [
     path: '/load2',
     component: () => import('@/views/loading/Load2.vue')
   },
+  {
+    path: '/firework',
+    component: () => import('@/views/firework/firework.vue')
+  }
 ];
 
 const router = new VueRouter({
